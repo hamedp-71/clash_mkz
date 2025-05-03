@@ -77,9 +77,9 @@ proxies:
   type: wireguard
   ip: 100.80.234.177/32
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-  server: 104.223.92.164
-  port: 80
-  public-key: "D2Tx/zEgTy2uoH2HLp5EBIFyLkHGEhkhLMYYedpcUFw="
+  server: 37.120.203.68
+  port: 443
+  public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
@@ -88,13 +88,13 @@ proxies:
   amnezia-wg-option:
     jc: 4
     jmin: 40
-    jmax: 250
+    jmax: 70
     s1: 0
     s2: 0
     h1: 1
     h2: 2
-    h3: 4
-    h4: 3
+    h3: 3
+    h4: 4
 
 - name: "🇺🇸 WINDSCRIBE-US-12"
   type: wireguard
