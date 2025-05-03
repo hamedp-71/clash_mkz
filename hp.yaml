@@ -145,7 +145,7 @@ proxies:
     h3: 3
     h4: 4
 
-- name: " WINDSCRIBE-AV-14"
+- name: "WINDSCRIBE-AV-14"
   type: wireguard
   ip: 100.80.234.177/32
   ipv6: 2001:db8:1::1
@@ -816,7 +816,7 @@ proxy-groups:
       - "🇺🇸 WINDSCRIBE-US-11"
       - "🇺🇸 WINDSCRIBE-US-12"
       - "🇭🇰 WINDSCRIBE-HK-13"
-      - "🇮🇹 WINDSCRIBE-IT-14"
+      - "WINDSCRIBE-AV-14"
       - "🇳🇱 WINDSCRIBE-NL-15"
       - "🇯🇵 WINDSCRIBE-JP-16"
       - "🇹🇭 WINDSCRIBE-TH-17"
@@ -853,7 +853,7 @@ proxy-groups:
       - "🇺🇸 WINDSCRIBE-US-11"
       - "🇺🇸 WINDSCRIBE-US-12"
       - "🇭🇰 WINDSCRIBE-HK-13"
-      - "🇮🇹 WINDSCRIBE-IT-14"
+      - "WINDSCRIBE-AV-14"
       - "🇳🇱 WINDSCRIBE-NL-15"
       - "🇯🇵 WINDSCRIBE-JP-16"
       - "🇹🇭 WINDSCRIBE-TH-17"
