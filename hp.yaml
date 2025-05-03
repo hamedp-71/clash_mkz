@@ -79,7 +79,7 @@ proxies:
   ipv6: 2001:db8:1::1
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 104.223.92.164
-  port: 443
+  port: 80
   public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
@@ -103,7 +103,7 @@ proxies:
   ipv6: 2001:db8:1::1
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 206.217.143.132
-  port: 443
+  port: 80
   public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
@@ -127,7 +127,7 @@ proxies:
   ipv6: 2001:db8:1::1
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 103.108.94.164
-  port: 443
+  port: 80
   public-key: "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
@@ -145,13 +145,13 @@ proxies:
     h3: 3
     h4: 4
 
-- name: "🇮🇹 WINDSCRIBE-IT-14"
+- name: " WINDSCRIBE-AV-14"
   type: wireguard
   ip: 100.80.234.177/32
   ipv6: 2001:db8:1::1
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 103.62.49.114
-  port: 80
+  port: 443
   public-key: "LxvdxRlnn73teVay3m0wY8tP1131yCbfnCAftD+p7VE="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
