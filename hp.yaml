@@ -104,7 +104,7 @@ proxies:
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 206.217.143.132
   port: 443
-  public-key: "v8yTgxOMZjdZkCUoBVMUOiDBYgaNzQ9OfXc+uz2GUDc="
+  public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
