@@ -82,7 +82,7 @@ proxies:
   port: 80
   public-key: "D2Tx/zEgTy2uoH2HLp5EBIFyLkHGEhkhLMYYedpcUFw="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -106,7 +106,7 @@ proxies:
   port: 80
   public-key: "v8yTgxOMZjdZkCUoBVMUOiDBYgaNzQ9OfXc+uz2GUDc="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -130,7 +130,7 @@ proxies:
   port: 80
   public-key: "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -154,7 +154,7 @@ proxies:
   port: 80
   public-key: "LxvdxRlnn73teVay3m0wY8tP1131yCbfnCAftD+p7VE="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -178,7 +178,7 @@ proxies:
   port: 80
   public-key: "3UBRUZsTinXo+7RNpduBmxObJkeeSvQjb7sX1ydvvSw="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -202,7 +202,7 @@ proxies:
   port: 80
   public-key: "DUUQLXeyl2nC4PCBQ07YsQOStFzr3P2BooWkNu318SA="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -226,7 +226,7 @@ proxies:
   port: 80
   public-key: "R0DcCsuFG3sgugDVRnt6vy28z+AP9r1ygYIw0pJApGs="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -250,7 +250,7 @@ proxies:
   port: 80
   public-key: "IdglMouv0zOaeA+oNqoN5Gk2I8h4zWlmRxH5qwDFBUI="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -274,7 +274,7 @@ proxies:
   port: 80
   public-key: "SZAf6bGig5dmm+dihnqRQMOEr27FK9NG8Vklmj3IQ0o="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -298,7 +298,7 @@ proxies:
   port: 80
   public-key: "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -322,7 +322,7 @@ proxies:
   port: 80
   public-key: "QpdeoH7VxAatKlFm0sPo8phHjv1tiiHdqQaACmzMJjE="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -346,7 +346,7 @@ proxies:
   port: 80
   public-key: "sIJCZv0xijjMES3AqTrF374YOcdaIS266MBj1Yt7Ng0="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -370,7 +370,7 @@ proxies:
   port: 80
   public-key: "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -394,7 +394,7 @@ proxies:
   port: 80
   public-key: "87RdB427Hxehe3ePG8mSpPBsdwGgKWwAkEtbleThckw="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -418,7 +418,7 @@ proxies:
   port: 80
   public-key: "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -442,7 +442,7 @@ proxies:
   port: 80
   public-key: "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -466,7 +466,7 @@ proxies:
   port: 80
   public-key: "TA+nBx5qMBdyIiug4SHgbw30/GXrRZ2aUAH7MQHJwzc="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -490,7 +490,7 @@ proxies:
   port: 80
   public-key: "eIYiubmBdTz6WEopGNvlou37zzJ4/wD0LgsQudpiAgA="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -514,7 +514,7 @@ proxies:
   port: 80
   public-key: "ENe619amvJuPmyAtuLnGziKl1Yr1n3SoXgHrmosbRhk="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -538,7 +538,7 @@ proxies:
   port: 80
   public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -562,7 +562,7 @@ proxies:
   port: 80
   public-key: "z77o+FZ5AcTxTvkNyjLv69ZqaQtzFoS6UdtTK1eyoE8="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -586,7 +586,7 @@ proxies:
   port: 80
   public-key: "ST6xQmd7dcCl8HuR7jBRpAEyc2IOgpVE605uPTIycQg="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -610,7 +610,7 @@ proxies:
   port: 80
   public-key: "MhJ+u6X13d3beo3DMIANYDsvnZjIqYEpQDGlMUS5fis="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -634,7 +634,7 @@ proxies:
   port: 80
   public-key: "FUPy5mxwpV0z7j5d1Pqb37wHcyuqcCKSRDTBu/8kezc="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -658,7 +658,7 @@ proxies:
   port: 80
   public-key: "6O1bKP+apj/JT/aV++aODc1+EHlPO+c0xGyfKXE+k14="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -682,7 +682,7 @@ proxies:
   port: 80
   public-key: "qt+nrPNqLaB7dNOKD3JWvkG4JbgZgKfHZv7t0818LTg="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -706,7 +706,7 @@ proxies:
   port: 80
   public-key: "5LYbbr320XMoXPrLsZex+2cDAMUOnzX5Htpcgb4Uc1c="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
@@ -730,7 +730,7 @@ proxies:
   port: 80
   public-key: "HHDA7gntK+JWWxilBUsDI1FMgeGZtVFKKhbWVIbwMC0="
   allowed-ips: ["0.0.0.0/0"]
-  reserved: ""
+  reserved: "AAAA"
   udp: true
   mtu: 1280
   dialer-proxy: ""
