@@ -101,7 +101,7 @@ proxies:
   ip: 100.80.234.177/32
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 206.217.143.132
-  port: 80
+  port: 443
   public-key: "v8yTgxOMZjdZkCUoBVMUOiDBYgaNzQ9OfXc+uz2GUDc="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
@@ -111,13 +111,13 @@ proxies:
   amnezia-wg-option:
     jc: 4
     jmin: 40
-    jmax: 250
+    jmax: 70
     s1: 0
     s2: 0
     h1: 1
     h2: 2
-    h3: 4
-    h4: 3
+    h3: 3
+    h4: 4
 
 - name: "🇭🇰 WINDSCRIBE-HK-13"
   type: wireguard
@@ -125,7 +125,7 @@ proxies:
   ipv6: ""
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 103.108.94.164
-  port: 80
+  port: 443
   public-key: "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
@@ -135,13 +135,13 @@ proxies:
   amnezia-wg-option:
     jc: 4
     jmin: 40
-    jmax: 250
+    jmax: 70
     s1: 0
     s2: 0
     h1: 1
     h2: 2
-    h3: 4
-    h4: 3
+    h3: 3
+    h4: 4
 
 - name: "🇮🇹 WINDSCRIBE-IT-14"
   type: wireguard
@@ -149,7 +149,7 @@ proxies:
   ipv6: ""
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
   server: 103.62.49.114
-  port: 80
+  port: 443
   public-key: "LxvdxRlnn73teVay3m0wY8tP1131yCbfnCAftD+p7VE="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
@@ -159,13 +159,13 @@ proxies:
   amnezia-wg-option:
     jc: 4
     jmin: 40
-    jmax: 250
+    jmax: 70
     s1: 0
     s2: 0
     h1: 1
     h2: 2
-    h3: 4
-    h4: 3
+    h3: 3
+    h4: 4
 
 - name: "🇳🇱 WINDSCRIBE-NL-15"
   type: wireguard
