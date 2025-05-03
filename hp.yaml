@@ -1,0 +1,872 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+mode: rule
+log-level: warning
+disable-keep-alive: false
+keep-alive-idle: 30
+keep-alive-interval: 30
+unified-delay: false
+geo-auto-update: true
+geo-update-interval: 168
+external-controller: '127.0.0.1:9090'
+external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
+external-ui: ui
+external-controller-cors:
+  allow-origins: ['*']
+  allow-private-network: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+hosts: {}
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  respect-rules: true
+  use-hosts: true
+  use-system-hosts: false
+  nameserver:
+    - '223.5.5.5'
+    - '2400:3200::1'
+    - '77.88.8.8'
+    - '2a02:6b8::feed:0ff'
+    - '9.9.9.9'
+    - '2620:fe::fe'
+    - '1.1.1.1'
+    - '2606:4700:4700::1111'
+    - '8.8.8.8'
+    - '2001:4860:4860::8888'
+    - '8.8.4.4'
+    - '2001:4860:4860::8844'
+  proxy-server-nameserver:
+    - '223.5.5.5'
+    - '2400:3200::1'
+    - '77.88.8.8'
+    - '2a02:6b8::feed:0ff'
+    - '9.9.9.9'
+    - '2620:fe::fe'
+    - '1.1.1.1'
+    - '2606:4700:4700::1111'
+    - '8.8.8.8'
+    - '2001:4860:4860::8888'
+    - '8.8.4.4'
+    - '2001:4860:4860::8844'
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  strict-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 'any:53'
+  mtu: 1280
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
+    TLS:
+      ports: [443, 8443, 2053, 2083, 2087, 2096]
+
+proxies:
+- name: "🇺🇸 WINDSCRIBE-US-11"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 104.223.92.164
+  port: 80
+  public-key: "D2Tx/zEgTy2uoH2HLp5EBIFyLkHGEhkhLMYYedpcUFw="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-12"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 206.217.143.132
+  port: 80
+  public-key: "v8yTgxOMZjdZkCUoBVMUOiDBYgaNzQ9OfXc+uz2GUDc="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇭🇰 WINDSCRIBE-HK-13"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 103.108.94.164
+  port: 80
+  public-key: "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇮🇹 WINDSCRIBE-IT-14"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 103.62.49.114
+  port: 80
+  public-key: "LxvdxRlnn73teVay3m0wY8tP1131yCbfnCAftD+p7VE="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇳🇱 WINDSCRIBE-NL-15"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 62.212.239.60
+  port: 80
+  public-key: "3UBRUZsTinXo+7RNpduBmxObJkeeSvQjb7sX1ydvvSw="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇯🇵 WINDSCRIBE-JP-16"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 202.129.16.149
+  port: 80
+  public-key: "DUUQLXeyl2nC4PCBQ07YsQOStFzr3P2BooWkNu318SA="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇹🇭 WINDSCRIBE-TH-17"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "bkk-245-wg.whiskergalaxy.com"
+  port: 80
+  public-key: "R0DcCsuFG3sgugDVRnt6vy28z+AP9r1ygYIw0pJApGs="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇩🇪 WINDSCRIBE-DE-18"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 37.120.142.228
+  port: 80
+  public-key: "IdglMouv0zOaeA+oNqoN5Gk2I8h4zWlmRxH5qwDFBUI="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇬🇧 WINDSCRIBE-UK-19"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 146.70.54.116
+  port: 80
+  public-key: "SZAf6bGig5dmm+dihnqRQMOEr27FK9NG8Vklmj3IQ0o="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-20"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 104.255.169.111
+  port: 80
+  public-key: "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇧🇷 WINDSCRIBE-BR-21"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 138.186.141.156
+  port: 80
+  public-key: "QpdeoH7VxAatKlFm0sPo8phHjv1tiiHdqQaACmzMJjE="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇨🇴 WINDSCRIBE-CO-22"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "bog-240-wg.whiskergalaxy.com"
+  port: 80
+  public-key: "sIJCZv0xijjMES3AqTrF374YOcdaIS266MBj1Yt7Ng0="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-23"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 199.217.104.228
+  port: 80
+  public-key: "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇳🇱 WINDSCRIBE-NL-24"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 185.245.85.100
+  port: 80
+  public-key: "87RdB427Hxehe3ePG8mSpPBsdwGgKWwAkEtbleThckw="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇮🇹 WINDSCRIBE-IT-25"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 103.62.50.132
+  port: 80
+  public-key: "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇭🇰 WINDSCRIBE-HK-26"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 103.108.95.228
+  port: 80
+  public-key: "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇷🇺 WINDSCRIBE-RU-27"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 194.187.251.148
+  port: 80
+  public-key: "TA+nBx5qMBdyIiug4SHgbw30/GXrRZ2aUAH7MQHJwzc="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇬🇧 WINDSCRIBE-UK-28"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 146.70.97.180
+  port: 80
+  public-key: "eIYiubmBdTz6WEopGNvlou37zzJ4/wD0LgsQudpiAgA="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇳🇱 WINDSCRIBE-NL-29"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 185.252.223.228
+  port: 80
+  public-key: "ENe619amvJuPmyAtuLnGziKl1Yr1n3SoXgHrmosbRhk="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇦🇷 WINDSCRIBE-AR-30"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 190.103.176.148
+  port: 80
+  public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-31"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "198.12.64.36"
+  port: 80
+  public-key: "z77o+FZ5AcTxTvkNyjLv69ZqaQtzFoS6UdtTK1eyoE8="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇹🇷 WINDSCRIBE-TR-32"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "89.252.132.20"
+  port: 80
+  public-key: "ST6xQmd7dcCl8HuR7jBRpAEyc2IOgpVE605uPTIycQg="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇮🇩 WINDSCRIBE-ID-33"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "116.206.229.132"
+  port: 80
+  public-key: "MhJ+u6X13d3beo3DMIANYDsvnZjIqYEpQDGlMUS5fis="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-34"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "192.158.226.16"
+  port: 80
+  public-key: "FUPy5mxwpV0z7j5d1Pqb37wHcyuqcCKSRDTBu/8kezc="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-35"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "208.77.22.101"
+  port: 80
+  public-key: "6O1bKP+apj/JT/aV++aODc1+EHlPO+c0xGyfKXE+k14="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇺🇸 WINDSCRIBE-US-36"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "107.150.29.132"
+  port: 80
+  public-key: "qt+nrPNqLaB7dNOKD3JWvkG4JbgZgKfHZv7t0818LTg="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇩🇪 WINDSCRIBE-DE-37"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "23.83.91.171"
+  port: 80
+  public-key: "5LYbbr320XMoXPrLsZex+2cDAMUOnzX5Htpcgb4Uc1c="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+- name: "🇷🇺 WINDSCRIBE-RU-38"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: ""
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "178.175.144.124"
+  port: 80
+  public-key: "HHDA7gntK+JWWxilBUsDI1FMgeGZtVFKKhbWVIbwMC0="
+  allowed-ips: ["0.0.0.0/0"]
+  reserved: ""
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 0
+    jmin: 0
+    jmax: 0
+    s1: 0
+    s2: 0
+    h1: 0
+    h2: 0
+    h3: 0
+    h4: 0
+
+  - name: "🇮🇷 Warp - IPv6"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
+    port: 1018
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 250
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
+
+  - name: "🇸🇪 Warp - IPv6"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
+    server: 188.114.98.216
+    port: 987
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: "🇮🇷 Warp - IPv6"
+
+proxy-groups:
+  - name: "🌐 گلوبال"
+    type: select
+    proxies:
+      - "🚀 انتخاب خودکار (بهترین)"
+      - "🇮🇷 Warp - IPv4-1"
+      - "🇩🇪 Warp - IPv4-1"
+      - "🇮🇷 Warp - IPv4-2"
+      - "🇩🇪 Warp - IPv4-2"
+      - "🇮🇷 Warp - IPv4-3"
+      - "🇩🇪 Warp - IPv4-3"
+      - "🇮🇷 Warp - IPv6"
+      - "🇸🇪 Warp - IPv6"
+
+  - name: "🚀 انتخاب خودکار (بهترین)"
+    type: url-test
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 100
+    proxies:
+      - "🇮🇷 Warp - IPv4-1"
+      - "🇩🇪 Warp - IPv4-1"
+      - "🇮🇷 Warp - IPv4-2"
+      - "🇩🇪 Warp - IPv4-2"
+      - "🇮🇷 Warp - IPv4-3"
+      - "🇩🇪 Warp - IPv4-3"
+      - "🇮🇷 Warp - IPv6"
+      - "🇸🇪 Warp - IPv6"
+
+rule-providers:
+  ir:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
+    path: "./ruleset/ir.txt"
+    interval: 86400
+  ir-cidr:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
+    path: "./ruleset/ir-cidr.txt"
+    interval: 86400
+  malware:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt"
+    path: "./ruleset/malware.txt"
+    interval: 86400
+  phishing:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt"
+    path: "./ruleset/phishing.txt"
+    interval: 86400
+  cryptominers:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt"
+    path: "./ruleset/cryptominers.txt"
+    interval: 86400
+  ads:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt"
+    path: "./ruleset/ads.txt"
+    interval: 86400
+
+rules:
+  - RULE-SET,ir,DIRECT
+  - RULE-SET,ir-cidr,DIRECT
+  - RULE-SET,malware,REJECT
+  - RULE-SET,phishing,REJECT
+  - RULE-SET,cryptominers,REJECT
+  - RULE-SET,ads,REJECT
+  - MATCH,🌐 گلوبال
+
+ntp:
+  enable: true
+  server: "time.apple.com"
+  port: 123
+  interval: 30
