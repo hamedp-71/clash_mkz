@@ -77,7 +77,7 @@ proxies:
   type: wireguard
   ip: 100.80.234.177/32
   private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-  server: 37.120.203.68
+  server: 104.223.92.164
   port: 443
   public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
