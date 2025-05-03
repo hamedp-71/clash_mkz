@@ -84,7 +84,6 @@ proxies:
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: ""
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -108,7 +107,6 @@ proxies:
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: ""
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -133,7 +131,6 @@ proxies:
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: ""
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -154,10 +151,10 @@ proxies:
   server: 103.62.49.114
   port: 80
   public-key: "LxvdxRlnn73teVay3m0wY8tP1131yCbfnCAftD+p7VE="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1316
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -178,10 +175,10 @@ proxies:
   server: 62.212.239.60
   port: 80
   public-key: "3UBRUZsTinXo+7RNpduBmxObJkeeSvQjb7sX1ydvvSw="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1400
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -202,10 +199,11 @@ proxies:
   server: 202.129.16.149
   port: 80
   public-key: "DUUQLXeyl2nC4PCBQ07YsQOStFzr3P2BooWkNu318SA="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -226,10 +224,11 @@ proxies:
   server: "bkk-245-wg.whiskergalaxy.com"
   port: 80
   public-key: "R0DcCsuFG3sgugDVRnt6vy28z+AP9r1ygYIw0pJApGs="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -250,10 +249,11 @@ proxies:
   server: 37.120.142.228
   port: 80
   public-key: "IdglMouv0zOaeA+oNqoN5Gk2I8h4zWlmRxH5qwDFBUI="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -274,10 +274,11 @@ proxies:
   server: 146.70.54.116
   port: 80
   public-key: "SZAf6bGig5dmm+dihnqRQMOEr27FK9NG8Vklmj3IQ0o="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -298,10 +299,11 @@ proxies:
   server: 104.255.169.111
   port: 80
   public-key: "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -322,10 +324,11 @@ proxies:
   server: 138.186.141.156
   port: 80
   public-key: "QpdeoH7VxAatKlFm0sPo8phHjv1tiiHdqQaACmzMJjE="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -346,10 +349,11 @@ proxies:
   server: "bog-240-wg.whiskergalaxy.com"
   port: 80
   public-key: "sIJCZv0xijjMES3AqTrF374YOcdaIS266MBj1Yt7Ng0="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -370,10 +374,11 @@ proxies:
   server: 199.217.104.228
   port: 80
   public-key: "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -394,10 +399,11 @@ proxies:
   server: 185.245.85.100
   port: 80
   public-key: "87RdB427Hxehe3ePG8mSpPBsdwGgKWwAkEtbleThckw="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -418,10 +424,11 @@ proxies:
   server: 103.62.50.132
   port: 80
   public-key: "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -442,10 +449,11 @@ proxies:
   server: 103.108.95.228
   port: 80
   public-key: "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -466,10 +474,11 @@ proxies:
   server: 194.187.251.148
   port: 80
   public-key: "TA+nBx5qMBdyIiug4SHgbw30/GXrRZ2aUAH7MQHJwzc="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -490,10 +499,11 @@ proxies:
   server: 146.70.97.180
   port: 80
   public-key: "eIYiubmBdTz6WEopGNvlou37zzJ4/wD0LgsQudpiAgA="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -514,10 +524,11 @@ proxies:
   server: 185.252.223.228
   port: 80
   public-key: "ENe619amvJuPmyAtuLnGziKl1Yr1n3SoXgHrmosbRhk="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
@@ -538,10 +549,11 @@ proxies:
   server: 190.103.176.148
   port: 80
   public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
   allowed-ips: ["0.0.0.0/0"]
   reserved: "AAAA"
   udp: true
-  mtu: 1280
+  mtu: 1460
   dialer-proxy: ""
   amnezia-wg-option:
     jc: 4
