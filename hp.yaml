@@ -87,15 +87,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-12"
   type: wireguard
@@ -111,15 +111,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇭🇰 WINDSCRIBE-HK-13"
   type: wireguard
@@ -135,15 +135,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇮🇹 WINDSCRIBE-IT-14"
   type: wireguard
@@ -159,15 +159,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇳🇱 WINDSCRIBE-NL-15"
   type: wireguard
@@ -183,15 +183,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇯🇵 WINDSCRIBE-JP-16"
   type: wireguard
@@ -207,15 +207,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇹🇭 WINDSCRIBE-TH-17"
   type: wireguard
@@ -231,15 +231,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇩🇪 WINDSCRIBE-DE-18"
   type: wireguard
@@ -255,15 +255,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇬🇧 WINDSCRIBE-UK-19"
   type: wireguard
@@ -279,15 +279,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-20"
   type: wireguard
@@ -303,15 +303,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇧🇷 WINDSCRIBE-BR-21"
   type: wireguard
@@ -327,15 +327,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇨🇴 WINDSCRIBE-CO-22"
   type: wireguard
@@ -351,15 +351,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-23"
   type: wireguard
@@ -375,15 +375,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇳🇱 WINDSCRIBE-NL-24"
   type: wireguard
@@ -399,15 +399,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇮🇹 WINDSCRIBE-IT-25"
   type: wireguard
@@ -423,15 +423,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇭🇰 WINDSCRIBE-HK-26"
   type: wireguard
@@ -447,15 +447,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇷🇺 WINDSCRIBE-RU-27"
   type: wireguard
@@ -471,15 +471,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇬🇧 WINDSCRIBE-UK-28"
   type: wireguard
@@ -495,15 +495,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇳🇱 WINDSCRIBE-NL-29"
   type: wireguard
@@ -519,15 +519,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇦🇷 WINDSCRIBE-AR-30"
   type: wireguard
@@ -543,15 +543,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-31"
   type: wireguard
@@ -567,15 +567,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇹🇷 WINDSCRIBE-TR-32"
   type: wireguard
@@ -591,15 +591,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇮🇩 WINDSCRIBE-ID-33"
   type: wireguard
@@ -615,15 +615,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-34"
   type: wireguard
@@ -639,15 +639,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-35"
   type: wireguard
@@ -663,15 +663,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇺🇸 WINDSCRIBE-US-36"
   type: wireguard
@@ -687,15 +687,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇩🇪 WINDSCRIBE-DE-37"
   type: wireguard
@@ -711,15 +711,15 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 - name: "🇷🇺 WINDSCRIBE-RU-38"
   type: wireguard
@@ -735,65 +735,97 @@ proxies:
   mtu: 1280
   dialer-proxy: ""
   amnezia-wg-option:
-    jc: 0
-    jmin: 0
-    jmax: 0
+    jc: 4
+    jmin: 40
+    jmax: 250
     s1: 0
     s2: 0
-    h1: 0
-    h2: 0
-    h3: 0
-    h4: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
-  - name: "🇮🇷 Warp - IPv6"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
+- name: "🇮🇷 Warp - IPv6"
+  type: wireguard
+  ip: 172.16.0.2/32
+  ipv6: 2001:db8:1::1
+  private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+  server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
+  port: 1018
+  public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 250
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
-  - name: "🇸🇪 Warp - IPv6"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.98.216
-    port: 987
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv6"
+- name: "🇸🇪 Warp - IPv6"
+  type: wireguard
+  ip: 172.16.0.2/32
+  ipv6: 2001:db8:1::1
+  private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
+  server: 188.114.98.216
+  port: 987
+  public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: "🇮🇷 Warp - IPv6"
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 250
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 4
+    h4: 3
 
 proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-3"
+      - "🇺🇸 WINDSCRIBE-US-11"
+      - "🇺🇸 WINDSCRIBE-US-12"
+      - "🇭🇰 WINDSCRIBE-HK-13"
+      - "🇮🇹 WINDSCRIBE-IT-14"
+      - "🇳🇱 WINDSCRIBE-NL-15"
+      - "🇯🇵 WINDSCRIBE-JP-16"
+      - "🇹🇭 WINDSCRIBE-TH-17"
+      - "🇩🇪 WINDSCRIBE-DE-18"
+      - "🇬🇧 WINDSCRIBE-UK-19"
+      - "🇺🇸 WINDSCRIBE-US-20"
+      - "🇧🇷 WINDSCRIBE-BR-21"
+      - "🇨🇴 WINDSCRIBE-CO-22"
+      - "🇺🇸 WINDSCRIBE-US-23"
+      - "🇳🇱 WINDSCRIBE-NL-24"
+      - "🇮🇹 WINDSCRIBE-IT-25"
+      - "🇭🇰 WINDSCRIBE-HK-26"
+      - "🇷🇺 WINDSCRIBE-RU-27"
+      - "🇬🇧 WINDSCRIBE-UK-28"
+      - "🇳🇱 WINDSCRIBE-NL-29"
+      - "🇦🇷 WINDSCRIBE-AR-30"
+      - "🇺🇸 WINDSCRIBE-US-31"
+      - "🇹🇷 WINDSCRIBE-TR-32"
+      - "🇮🇩 WINDSCRIBE-ID-33"
+      - "🇺🇸 WINDSCRIBE-US-34"
+      - "🇺🇸 WINDSCRIBE-US-35"
+      - "🇺🇸 WINDSCRIBE-US-36"
+      - "🇩🇪 WINDSCRIBE-DE-37"
+      - "🇷🇺 WINDSCRIBE-RU-38"
       - "🇮🇷 Warp - IPv6"
       - "🇸🇪 Warp - IPv6"
 
@@ -803,12 +835,34 @@ proxy-groups:
     interval: 600
     tolerance: 100
     proxies:
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-3"
+      - "🇺🇸 WINDSCRIBE-US-11"
+      - "🇺🇸 WINDSCRIBE-US-12"
+      - "🇭🇰 WINDSCRIBE-HK-13"
+      - "🇮🇹 WINDSCRIBE-IT-14"
+      - "🇳🇱 WINDSCRIBE-NL-15"
+      - "🇯🇵 WINDSCRIBE-JP-16"
+      - "🇹🇭 WINDSCRIBE-TH-17"
+      - "🇩🇪 WINDSCRIBE-DE-18"
+      - "🇬🇧 WINDSCRIBE-UK-19"
+      - "🇺🇸 WINDSCRIBE-US-20"
+      - "🇧🇷 WINDSCRIBE-BR-21"
+      - "🇨🇴 WINDSCRIBE-CO-22"
+      - "🇺🇸 WINDSCRIBE-US-23"
+      - "🇳🇱 WINDSCRIBE-NL-24"
+      - "🇮🇹 WINDSCRIBE-IT-25"
+      - "🇭🇰 WINDSCRIBE-HK-26"
+      - "🇷🇺 WINDSCRIBE-RU-27"
+      - "🇬🇧 WINDSCRIBE-UK-28"
+      - "🇳🇱 WINDSCRIBE-NL-29"
+      - "🇦🇷 WINDSCRIBE-AR-30"
+      - "🇺🇸 WINDSCRIBE-US-31"
+      - "🇹🇷 WINDSCRIBE-TR-32"
+      - "🇮🇩 WINDSCRIBE-ID-33"
+      - "🇺🇸 WINDSCRIBE-US-34"
+      - "🇺🇸 WINDSCRIBE-US-35"
+      - "🇺🇸 WINDSCRIBE-US-36"
+      - "🇩🇪 WINDSCRIBE-DE-37"
+      - "🇷🇺 WINDSCRIBE-RU-38"
       - "🇮🇷 Warp - IPv6"
       - "🇸🇪 Warp - IPv6"
 
