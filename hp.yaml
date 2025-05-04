@@ -1082,7 +1082,7 @@ proxies:
   port: 65142
   public-key: "HENIT1CTAKjPrhG4s64jPJSzEjtEZPRARxA3amm49WU="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-  allowed-ips: ["0.0.0.0/0", "::/0"]
+  allowed-ips: ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"]
   reserved: "AAAA"
   udp: true
   mtu: 1280
@@ -1107,7 +1107,7 @@ proxies:
   port: 65142
   public-key: "P5X43E/SgvnJtbrKnJwLFxqFoZGsCghW2SxlXvfdzm0="
   pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-  allowed-ips: ["0.0.0.0/0", "::/0"]
+  allowed-ips: ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"]
   reserved: "AAAA"
   udp: true
   mtu: 1280
@@ -1123,6 +1123,455 @@ proxies:
     h3: 3
     h4: 4
 
+- name: "🇺🇦 Ukraine"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 37.19.218.3
+  port: 65142
+  public-key: "xd+b0SNB38ILyN8mfY3d7w7zLggbq4CkkxqPavP2OUk="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇹🇼 Taiwan"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 185.189.163.176
+  port: 65142
+  public-key: "dAAkV3G3YFurH3+3198clav9vlh4FxB1asqNc0tLeCk="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇸🇬 Singapore"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 156.146.56.112
+  port: 65142
+  public-key: "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇸🇬 Singapore 1"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 103.107.198.228
+  port: 65142
+  public-key: "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 2"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 167.88.60.244
+  port: 65142
+  public-key: "/oz2frQv99JveBgmTXW22QXIEulQURK79BW+ugk8fCE="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 3"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 23.94.74.100
+  port: 65142
+  public-key: "mRksyUF7wDK/8uBoPoEujp+yoUhjhq0N2LnNJFJnmiE="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 4"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 104.255.169.111
+  port: 65142
+  public-key: "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 5"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 199.217.104.228
+  port: 65142
+  public-key: "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 6"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 198.12.64.36
+  port: 65142
+  public-key: "z77o+FZ5AcTxTvkNyjLv69ZqaQtzFoS6UdtTK1eyoE8="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 7"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 23.95.42.212
+  port: 65142
+  public-key: "47tLjymDPpTIBerb+wn02/XNFABF4YDAGwOnijSoZmQ="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 8"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: mci-371-wg.whiskergalaxy.com
+  port: 65142
+  public-key: "0VAbqR6QprUwYMbgo1Xuel23UzzibC7OIxDJYAe3wx4="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 9"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 217.138.217.212
+  port: 65142
+  public-key: "fvmyuUJF8JvjzIts5bROwwZQ0zkSB7lk/q8E4G3+F20="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 10"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 89.187.187.99
+  port: 65142
+  public-key: "7CGKj3gnMrJ73Q3TX/YPtk94ZqX+H3kfBbMwfhze/Hg="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇺🇸 United States 11"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 194.5.215.196
+  port: 65142
+  public-key: "1S9LgDyVSo2X34ZG8ukQQ7vqL5RpmXszNe0SYNjiUws="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4   
+
+- name: "🇺🇸 United States"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 198.147.22.227
+  port: 65142
+  public-key: "b5fIKEXhihCI7f4NOkQO/2BOd+bYHa0c05OylImgB0E="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇻🇳 Vietnam"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 103.9.79.220
+  port: 65142
+  public-key: "SxBT11IISNRou7thGo5A1QtaMjfzPIzZXDxdYEbDxhE="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇿🇦 South Africa 1"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 165.73.248.92
+  port: 65142
+  public-key: "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4
+
+- name: "🇿🇦 South Africa"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: 2001:db8:1::1
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: 197.242.159.229
+  port: 65142
+  public-key: "Nh5LEJT44xbuvTQnv3OZ0bXi09BFXV4SBB1XVMI12Ec="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h4: 3
+    h3: 4    
     
 proxy-groups:
   - name: "🌐 گلوبال"
