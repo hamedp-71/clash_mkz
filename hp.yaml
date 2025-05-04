@@ -573,7 +573,57 @@ proxies:
     h3: 3
     h4: 4
 
+- name: "🇬🇧 United Kingdom - IPv4"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: "2001:db8:1::1"
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "193.36.118.228"
+  port: 65142
+  public-key: "bGn6yuCFQWWF8+ZMGlJ0M6+IJRlkLXn0/UI/mvIyYwQ="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
 
+- name: "🇭🇰 Hong Kong - IPv4"
+  type: wireguard
+  ip: 100.80.234.177/32
+  ipv6: "2001:db8:1::1"
+  private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+  server: "84.17.57.115"
+  port: 65142
+  public-key: "zi62xnrtbvAbaavB8MLoTF36BX/stxjfnGJ6mIsZYzg="
+  pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+  allowed-ips: ["0.0.0.0/0", "::/0"]
+  reserved: "AAAA"
+  udp: true
+  mtu: 1280
+  dialer-proxy: ""
+  amnezia-wg-option:
+    jc: 4
+    jmin: 40
+    jmax: 70
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+
+    
 
 proxy-groups:
   - name: "🌐 گلوبال"
