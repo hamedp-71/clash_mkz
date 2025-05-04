@@ -325,7 +325,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada - IPv4-1"
+- name: "🇨🇦 Canada - IPv4-1"
   type: wireguard
   ip: 100.80.234.177/32
   ipv6: "2001:db8:1::1"
