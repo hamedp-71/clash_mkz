@@ -65,7 +65,7 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇮🇷 Warp - IPv4"
+  - name: "🇮🇷 hamedp71 - IPv4"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
@@ -89,7 +89,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Warp - IPv4"
+  - name: "🇩🇪 hamedp71 - IPv4"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
@@ -101,9 +101,9 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4"
+    dialer-proxy: "🇮🇷 hamedp71 - IPv4"
 
-  - name: "🇮🇷 Warp - IPv6"
+  - name: "🇮🇷 hamedp71 - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
@@ -127,7 +127,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇸🇪 Warp - IPv6"
+  - name: "🇸🇪 hamedp71 - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
@@ -139,7 +139,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv6"    
+    dialer-proxy: "🇮🇷 hamedp71 - IPv6"    
 
   - name: "🇦🇺 Australia - IPv4-1"
     type: wireguard
@@ -466,6 +466,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -491,6 +492,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -516,6 +518,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -541,6 +544,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -566,6 +570,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -591,6 +596,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -616,6 +622,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -641,6 +648,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -666,6 +674,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -687,10 +696,11 @@ proxies:
     port: 65142
     public-key: "zi62xnrtbvAbaavB8MLoTF36BX/stxjfnGJ6mIsZYzg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -712,10 +722,11 @@ proxies:
     port: 65142
     public-key: "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -737,10 +748,11 @@ proxies:
     port: 65142
     public-key: "ua7TUXkcSiiHeTyCok5b3PX9DkJ4l5yVvGlSmJ34WU8="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -762,10 +774,11 @@ proxies:
     port: 65142
     public-key: "QI+u918O4tyAtoV37B6HVdiQeZoEUi0dWXhSsC3LiWQ="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -787,10 +800,11 @@ proxies:
     port: 65142
     public-key: "8n68GM7n6dm6Hj3RIIh5q1q6Un52Cq82LYEXHRAtPg4="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -812,10 +826,11 @@ proxies:
     port: 65142
     public-key: "S/qPJPWnfwfb1pWIcKN8FH71j5dFt9eH2KbEeU1+QlE="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -837,10 +852,11 @@ proxies:
     port: 65142
     public-key: "0CUpqMsVggxsjvdZewCsBFsw84goCitq0G9nytQhpDw="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -862,10 +878,11 @@ proxies:
     port: 65142
     public-key: "BzMLell5uUM/d9aNGaGMog+GFH36s4dFO0WuQ6/VxCg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -887,10 +904,11 @@ proxies:
     port: 65142
     public-key: "9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -912,10 +930,11 @@ proxies:
     port: 65142
     public-key: "pLzFr9exM2Z5oXw0iuKnXIJZxa4I0UEmyFC85sHtDwk="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -937,10 +956,11 @@ proxies:
     port: 65142
     public-key: "yrmgyxaJAxTEth7Gc8lXOQVHn9Gn/fzd4cLE+0WZjFI="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -962,10 +982,11 @@ proxies:
     port: 65142
     public-key: "c9QHUQhVUNIYqcp5HQ4gwoSoKzAgK8uSsoiJUrlriDA="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -987,10 +1008,11 @@ proxies:
     port: 65142
     public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1012,10 +1034,11 @@ proxies:
     port: 80
     public-key: "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1037,10 +1060,11 @@ proxies:
     port: 65142
     public-key: "3L8yhe+v7TzBeesOFxSdU2VUa8FG4PTuoiiUoV7DAGY="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1062,10 +1086,11 @@ proxies:
     port: 65142
     public-key: "MYoOwWssF5fWZ+bOQINzfitdjwyqiHcJhr607wSAzEY="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1087,10 +1112,11 @@ proxies:
     port: 65142
     public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1112,10 +1138,11 @@ proxies:
     port: 65142
     public-key: "gLPWBcPANL0mgwEkImb6PUJmR2ncz7S9DKIDDYvgJkk="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1137,10 +1164,11 @@ proxies:
     port: 65142
     public-key: "Yom91OWyt0otz1S4hgQMhp1q1y8tpDvUWwVkNXpmpjc="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1162,10 +1190,11 @@ proxies:
     port: 65142
     public-key: "HENIT1CTAKjPrhG4s64jPJSzEjtEZPRARxA3amm49WU="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1187,10 +1216,11 @@ proxies:
     port: 65142
     public-key: "P5X43E/SgvnJtbrKnJwLFxqFoZGsCghW2SxlXvfdzm0="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1212,10 +1242,11 @@ proxies:
     port: 65142
     public-key: "xd+b0SNB38ILyN8mfY3d7w7zLggbq4CkkxqPavP2OUk="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1237,10 +1268,11 @@ proxies:
     port: 65142
     public-key: "dAAkV3G3YFurH3+3198clav9vlh4FxB1asqNc0tLeCk="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1262,10 +1294,11 @@ proxies:
     port: 65142
     public-key: "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1287,10 +1320,11 @@ proxies:
     port: 65142
     public-key: "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1312,10 +1346,11 @@ proxies:
     port: 65142
     public-key: "/oz2frQv99JveBgmTXW22QXIEulQURK79BW+ugk8fCE="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1337,10 +1372,11 @@ proxies:
     port: 65142
     public-key: "mRksyUF7wDK/8uBoPoEujp+yoUhjhq0N2LnNJFJnmiE="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1362,10 +1398,11 @@ proxies:
     port: 65142
     public-key: "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1387,10 +1424,11 @@ proxies:
     port: 65142
     public-key: "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1412,10 +1450,11 @@ proxies:
     port: 65142
     public-key: "z77o+FZ5AcTxTvkNyjLv69ZqaQtzFoS6UdtTK1eyoE8="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1437,10 +1476,11 @@ proxies:
     port: 65142
     public-key: "47tLjymDPpTIBerb+wn02/XNFABF4YDAGwOnijSoZmQ="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1462,10 +1502,11 @@ proxies:
     port: 65142
     public-key: "0VAbqR6QprUwYMbgo1Xuel23UzzibC7OIxDJYAe3wx4="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1487,10 +1528,11 @@ proxies:
     port: 65142
     public-key: "fvmyuUJF8JvjzIts5bROwwZQ0zkSB7lk/q8E4G3+F20="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1512,10 +1554,11 @@ proxies:
     port: 65142
     public-key: "7CGKj3gnMrJ73Q3TX/YPtk94ZqX+H3kfBbMwfhze/Hg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1537,10 +1580,11 @@ proxies:
     port: 65142
     public-key: "1S9LgDyVSo2X34ZG8ukQQ7vqL5RpmXszNe0SYNjiUws="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1562,10 +1606,11 @@ proxies:
     port: 65142
     public-key: "b5fIKEXhihCI7f4NOkQO/2BOd+bYHa0c05OylImgB0E="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1587,10 +1632,11 @@ proxies:
     port: 65142
     public-key: "SxBT11IISNRou7thGo5A1QtaMjfzPIzZXDxdYEbDxhE="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1612,10 +1658,11 @@ proxies:
     port: 65142
     public-key: "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1637,10 +1684,11 @@ proxies:
     port: 65142
     public-key: "Nh5LEJT44xbuvTQnv3OZ0bXi09BFXV4SBB1XVMI12Ec="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1658,10 +1706,10 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "🇮🇷 Warp - IPv4"
-      - "🇩🇪 Warp - IPv4"
-      - "🇮🇷 Warp - IPv6"
-      - "🇸🇪 Warp - IPv6"      
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"      
       - "🇦🇺 Australia - IPv4-1"
       - "🇦🇺 Australia - IPv4-2"
       - "🇧🇦 Bosnia and Herzegovina - IPv4"
