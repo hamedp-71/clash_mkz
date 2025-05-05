@@ -148,7 +148,6 @@ proxies:
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.1.213.212"
     port: 65142
-    dns: 10.255.255.2
     public-key: "jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
