@@ -1774,13 +1774,13 @@ proxy-groups:
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 600
-    tolerance: 100
+    interval: 300
+    tolerance: 50
     proxies:
-      - "🇮🇷 Warp - IPv4"
-      - "🇩🇪 Warp - IPv4"
-      - "🇮🇷 Warp - IPv6"
-      - "🇸🇪 Warp - IPv6"      
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"      
       - "🇦🇺 Australia - IPv4-1"
       - "🇦🇺 Australia - IPv4-2"
       - "🇧🇦 Bosnia and Herzegovina - IPv4"
