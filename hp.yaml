@@ -154,6 +154,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -179,6 +180,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -204,6 +206,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -229,6 +232,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -254,6 +258,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -279,6 +284,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -304,6 +310,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -329,6 +336,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -354,6 +362,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -379,6 +388,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -404,6 +414,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -429,6 +440,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
