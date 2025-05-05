@@ -99,7 +99,7 @@ proxies:
     server: 188.114.98.12
     port: 942
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -113,7 +113,7 @@ proxies:
     server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
     port: 1018
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -137,7 +137,7 @@ proxies:
     server: 188.114.98.216
     port: 1018
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -152,7 +152,7 @@ proxies:
     port: 65142
     public-key: "jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -177,7 +177,7 @@ proxies:
     port: 65142
     public-key: "Jhhq6jvPxABM8OmzaM4/zJbcoRBR5OZalIHrZaFuXAU="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -202,7 +202,7 @@ proxies:
     port: 65142
     public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -227,7 +227,7 @@ proxies:
     port: 65142
     public-key: "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -252,7 +252,7 @@ proxies:
     port: 65142
     public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -277,7 +277,7 @@ proxies:
     port: 65142
     public-key: "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -302,7 +302,7 @@ proxies:
     port: 65142
     public-key: "r5BDU0T+VGZU6I+zuF3vlGrdORtgNvLhY08gQxrFRCw="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -327,7 +327,7 @@ proxies:
     port: 65142
     public-key: "KtJIKy9zsCXtKwFMQeGDEZVXtqw+X1+5z10Rh84/N0s="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -352,7 +352,7 @@ proxies:
     port: 65142
     public-key: "tEh6Z8bnFmQU2KWHWYOS7yuDFZgwn3LGOZAdR1hN8kU="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -377,7 +377,7 @@ proxies:
     port: 65142
     public-key: "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -402,7 +402,7 @@ proxies:
     port: 65142
     public-key: "w262TI0UyIg9pFunMiekVURYUuT/z4qXRor2Z7VcOn4="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -427,7 +427,7 @@ proxies:
     port: 65142
     public-key: "YxWQDjNmU41PJXtoobFek3Y6nhICSLgsqH+QKPO5AQ8="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -452,7 +452,7 @@ proxies:
     port: 65142
     public-key: "vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -477,7 +477,7 @@ proxies:
     port: 65142
     public-key: "IMHoX/bhNghQVQB0pYKi14pwJhkOcLevpiMa7Khaz2I="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -502,7 +502,7 @@ proxies:
     port: 65142
     public-key: "G7LkwWk08Ase/Wi9mnOW77brNBC0vTCemvy1IW1nlV4="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -527,7 +527,7 @@ proxies:
     port: 65142
     public-key: "uFOg97vQhHVCUfZy/HwmGH+dR6/9lpeWZ5tV3PysHRE="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -552,7 +552,7 @@ proxies:
     port: 65142
     public-key: "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -577,7 +577,7 @@ proxies:
     port: 65142
     public-key: "dAaOzl6DBAuFWC85UJUY378WwEHUoNqbE5lJMDfNamo="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -602,7 +602,7 @@ proxies:
     port: 65142
     public-key: "3si2nD1DKbbkeZkdg3hLMfOYw1gdKbVFtTOj2NOA+nM="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -627,7 +627,7 @@ proxies:
     port: 65142
     public-key: "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -652,7 +652,7 @@ proxies:
     port: 65142
     public-key: "bGn6yuCFQWWF8+ZMGlJ0M6+IJRlkLXn0/UI/mvIyYwQ="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
