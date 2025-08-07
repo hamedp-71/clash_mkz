@@ -1778,6 +1778,7 @@ proxy-groups:
     interval: 600
     tolerance: 100
     proxies:
+      - "🌐 گلوبال"
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
       - "🇮🇷 hamedp71 - IPv6"
