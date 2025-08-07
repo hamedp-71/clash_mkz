@@ -2037,7 +2037,7 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,🔁 سیستم فیلبک
+  - MATCH,🌐 گلوبال
 
 ntp:
   enable: true
