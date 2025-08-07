@@ -1773,7 +1773,7 @@ proxy-groups:
       - "🇿🇦 South Africa"
 
   - name: "🚀 انتخاب خودکار (بهترین)"
-    type: fallback
+    type: load-balance
     url: "http://www.gstatic.com/generate_204"
     interval: 600
     proxies:
