@@ -1706,7 +1706,7 @@ proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
-      - "⚖️ بالانس بار"
+      - "🔁 سیستم فیلبک"
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
       - "🇮🇷 hamedp71 - IPv6"
@@ -1772,11 +1772,10 @@ proxy-groups:
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
 
-  - name: "⚖️ بالانس بار"
-    type: load-balance
+  - name: "🔁 سیستم فیلبک"
+    type: fallback
     url: "http://www.google.com/generate_204"
     interval: 300
-    strategy: "round-robin"
     proxies:
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
@@ -1894,7 +1893,7 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,⚖️ بالانس بار
+  - MATCH,🔁 سیستم فیلبک
 
 ntp:
   enable: true
