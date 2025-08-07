@@ -1777,7 +1777,6 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 600
     proxies:
-      - "🌐 گلوبال"
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
       - "🇮🇷 hamedp71 - IPv6"
@@ -1842,6 +1841,7 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
+      - "🌐 گلوبال"
       
 rule-providers:
   ir:
