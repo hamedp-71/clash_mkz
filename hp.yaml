@@ -1842,7 +1842,6 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
-      - "🌐 گلوبال"
       
 rule-providers:
   ir:
