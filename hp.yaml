@@ -1776,7 +1776,6 @@ proxy-groups:
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: 600
-    tolerance: 100
     proxies:
       - "🌐 گلوبال"
       - "🇮🇷 hamedp71 - IPv4"
