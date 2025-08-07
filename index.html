@@ -71,8 +71,8 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.96.141
-    port: 854
+    server: 8.34.70.57
+    port: 3138
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
@@ -95,8 +95,8 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "gEvJgRYd6tzU6yYfAs24Re/8+WWvTsqGMKl+EBCUjFE="
-    server: 188.114.98.12
-    port: 942
+    server: 8.34.146.113
+    port: 968
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
@@ -1706,7 +1706,9 @@ proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
-      - "🚀 انتخاب خودکار (بهترین)"
+      - "🚀 بهترین (با سرعت)"
+      - "🔁 سیستم فیلبک"
+      - "⚖️ بالانس بار"
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
       - "🇮🇷 hamedp71 - IPv6"
@@ -1772,11 +1774,152 @@ proxy-groups:
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
 
-  - name: "🚀 انتخاب خودکار (بهترین)"
+  - name: "🚀 بهترین (با سرعت)"
     type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: 600
-    tolerance: 100
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"      
+      - "🇦🇺 Australia - IPv4-1"
+      - "🇦🇺 Australia - IPv4-2"
+      - "🇧🇦 Bosnia and Herzegovina - IPv4"
+      - "🇦🇺 Australia - IPv4-3"
+      - "🇦🇷 Argentina - IPv4"
+      - "🇦🇺 Australia - IPv4-4"
+      - "🇦🇺 Australia - IPv4-5"
+      - "🇦🇹 Austria (Vienna) - IPv4"
+      - "🇦🇺 Australia (South Australia) - IPv4"
+      - "🇦🇺 Australia - IPv4-6"
+      - "🇨🇦 Canada - IPv4-1"
+      - "🇨🇦 Canada (Toronto) - IPv4-1"
+      - "🇨🇦 Canada (Toronto) - IPv4-2"
+      - "🇨🇦 Canada - IPv4-2"
+      - "🇨🇭 Switzerland (Zurich) - IPv4-1"
+      - "🇨🇭 Switzerland (Zurich) - IPv4-2"
+      - "🇨🇾 Cyprus (Pafos) - IPv4"
+      - "🇨🇿 Czechia (Prague) - IPv4"
+      - "🇫🇷 France (Paris) - IPv4-1"
+      - "🇫🇷 France - IPv4-2"
+      - "🇬🇧 United Kingdom - IPv4"
+      - "🇭🇰 Hong Kong - IPv4"
+      - "🇮🇪 Ireland - IPv4"
+      - "🇮🇸 Iceland (Reykjavik) - IPv4"
+      - "🇮🇹 Italy (Milan) - IPv4"
+      - "🇯🇵 Japan - IPv4"
+      - "🇰🇪 Kenya - IPv4"
+      - "🇱🇹 Lithuania (Kaunas) - IPv4"
+      - "🇱🇺 Luxembourg - IPv4"
+      - "🇲🇰 North Macedonia (Skopje) - IPv4"
+      - "🇳🇱 Netherlands - IPv4-1"
+      - "🇳🇱 Netherlands - IPv4-2"
+      - "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
+      - "🇳🇴 Norway (Oslo) - IPv4"
+      - "🇳🇿 New Zealand - IPv4"
+      - "🇵🇦 Panama - IPv4"
+      - "🇵🇱 Poland (Warsaw) - IPv4"
+      - "🇷🇺 Russia - IPv4-1"
+      - "🇷🇺 Russia - IPv4-2"
+      - "🇷🇺 Russia - IPv4-3"
+      - "🇸🇪 Sweden (Stockholm) - IPv4-1"
+      - "🇸🇪 Sweden (Stockholm) - IPv4-2"
+      - "🇺🇦 Ukraine"
+      - "🇹🇼 Taiwan"
+      - "🇸🇬 Singapore"
+      - "🇸🇬 Singapore 1"
+      - "🇺🇸 United States 2"
+      - "🇺🇸 United States 3"
+      - "🇺🇸 United States 4"
+      - "🇺🇸 United States 5"
+      - "🇺🇸 United States 6"
+      - "🇺🇸 United States 7"
+      - "🇺🇸 United States 8"
+      - "🇺🇸 United States 9"
+      - "🇺🇸 United States 10"
+      - "🇺🇸 United States 11"
+      - "🇺🇸 United States"
+      - "🇻🇳 Vietnam"
+      - "🇿🇦 South Africa 1"
+      - "🇿🇦 South Africa"
+
+  - name: "🔁 سیستم فیلبک"
+    type: fallback
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    proxies:
+      - "🇮🇷 hamedp71 - IPv4"
+      - "🇩🇪 hamedp71 - IPv4"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"      
+      - "🇦🇺 Australia - IPv4-1"
+      - "🇦🇺 Australia - IPv4-2"
+      - "🇧🇦 Bosnia and Herzegovina - IPv4"
+      - "🇦🇺 Australia - IPv4-3"
+      - "🇦🇷 Argentina - IPv4"
+      - "🇦🇺 Australia - IPv4-4"
+      - "🇦🇺 Australia - IPv4-5"
+      - "🇦🇹 Austria (Vienna) - IPv4"
+      - "🇦🇺 Australia (South Australia) - IPv4"
+      - "🇦🇺 Australia - IPv4-6"
+      - "🇨🇦 Canada - IPv4-1"
+      - "🇨🇦 Canada (Toronto) - IPv4-1"
+      - "🇨🇦 Canada (Toronto) - IPv4-2"
+      - "🇨🇦 Canada - IPv4-2"
+      - "🇨🇭 Switzerland (Zurich) - IPv4-1"
+      - "🇨🇭 Switzerland (Zurich) - IPv4-2"
+      - "🇨🇾 Cyprus (Pafos) - IPv4"
+      - "🇨🇿 Czechia (Prague) - IPv4"
+      - "🇫🇷 France (Paris) - IPv4-1"
+      - "🇫🇷 France - IPv4-2"
+      - "🇬🇧 United Kingdom - IPv4"
+      - "🇭🇰 Hong Kong - IPv4"
+      - "🇮🇪 Ireland - IPv4"
+      - "🇮🇸 Iceland (Reykjavik) - IPv4"
+      - "🇮🇹 Italy (Milan) - IPv4"
+      - "🇯🇵 Japan - IPv4"
+      - "🇰🇪 Kenya - IPv4"
+      - "🇱🇹 Lithuania (Kaunas) - IPv4"
+      - "🇱🇺 Luxembourg - IPv4"
+      - "🇲🇰 North Macedonia (Skopje) - IPv4"
+      - "🇳🇱 Netherlands - IPv4-1"
+      - "🇳🇱 Netherlands - IPv4-2"
+      - "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
+      - "🇳🇴 Norway (Oslo) - IPv4"
+      - "🇳🇿 New Zealand - IPv4"
+      - "🇵🇦 Panama - IPv4"
+      - "🇵🇱 Poland (Warsaw) - IPv4"
+      - "🇷🇺 Russia - IPv4-1"
+      - "🇷🇺 Russia - IPv4-2"
+      - "🇷🇺 Russia - IPv4-3"
+      - "🇸🇪 Sweden (Stockholm) - IPv4-1"
+      - "🇸🇪 Sweden (Stockholm) - IPv4-2"
+      - "🇺🇦 Ukraine"
+      - "🇹🇼 Taiwan"
+      - "🇸🇬 Singapore"
+      - "🇸🇬 Singapore 1"
+      - "🇺🇸 United States 2"
+      - "🇺🇸 United States 3"
+      - "🇺🇸 United States 4"
+      - "🇺🇸 United States 5"
+      - "🇺🇸 United States 6"
+      - "🇺🇸 United States 7"
+      - "🇺🇸 United States 8"
+      - "🇺🇸 United States 9"
+      - "🇺🇸 United States 10"
+      - "🇺🇸 United States 11"
+      - "🇺🇸 United States"
+      - "🇻🇳 Vietnam"
+      - "🇿🇦 South Africa 1"
+      - "🇿🇦 South Africa"
+
+  - name: "⚖️ بالانس بار"
+    type: load-balance
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    strategy: "consistent-hashing"
     proxies:
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
@@ -1894,7 +2037,7 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,🌐 گلوبال
+  - MATCH,🔁 سیستم فیلبک
 
 ntp:
   enable: true
