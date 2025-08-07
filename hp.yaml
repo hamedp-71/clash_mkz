@@ -1706,7 +1706,7 @@ proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
-      - "🚀 انتخاب خودکار (بهترین)"
+      - "🔁 فیلبک"
       - "🇮🇷 hamedp71 - IPv4"
       - "🇩🇪 hamedp71 - IPv4"
       - "🇮🇷 hamedp71 - IPv6"
@@ -1772,7 +1772,7 @@ proxy-groups:
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
 
-  - name: "🚀 انتخاب خودکار (بهترین)"
+  - name: "🔁 فیلبک"
     type: fallback
     url: "http://www.google.com/generate_204"
     interval: 300
@@ -1841,6 +1841,7 @@ proxy-groups:
       - "🇻🇳 Vietnam"
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
+      - "🌐 گلوبال"
       
 rule-providers:
   ir:
