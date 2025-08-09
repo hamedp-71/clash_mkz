@@ -1947,8 +1947,8 @@ proxy-groups:
   - name: "🚀 بهترین (با سرعت)"
     type: url-test
     url: "http://www.google.com/generate_204"
-    interval: 300
-    tolerance: 50
+    interval: 150
+    tolerance: 100
     proxies: 
       - "🇦🇷 Argentina-WG"
       - "🇦🇹 Austria-WG"
