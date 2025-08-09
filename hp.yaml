@@ -1632,7 +1632,7 @@ proxies:
       h1: 1
       h2: 2
       h4: 3
-      h3: 4    
+      h3: 4
     
 proxy-groups:
   - name: "🌐 گلوبال"
