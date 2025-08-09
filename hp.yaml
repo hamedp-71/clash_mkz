@@ -456,7 +456,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada-WG-1"
+  - name: "🇨🇦 Canada-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -482,7 +482,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada-WG-2"
+  - name: "🇨🇦 Canada-WG-3"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -508,7 +508,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada-WG-2"
+  - name: "🇨🇦 Canada-WG-4"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1751,9 +1751,9 @@ proxy-groups:
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
       - "🇨🇦 Canada-WG-1"
-      - "🇨🇦 Canada-WG-1"
-      - "🇨🇦 Canada-WG-2"
-      - "🇨🇦 Canada-WG-2"
+      - "🇨🇦 Canada-WG-3"
+      - "🇨🇦 Canada-WG-3"
+      - "🇨🇦 Canada-WG-4"
       - "🇨🇭 Switzerland-WG-1"
       - "🇨🇭 Switzerland-WG-2"
       - "🇨🇾 Cyprus-WG"
@@ -1822,9 +1822,9 @@ proxy-groups:
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
       - "🇨🇦 Canada-WG-1"
-      - "🇨🇦 Canada-WG-1"
       - "🇨🇦 Canada-WG-2"
-      - "🇨🇦 Canada-WG-2"
+      - "🇨🇦 Canada-WG-3"
+      - "🇨🇦 Canada-WG-4"
       - "🇨🇭 Switzerland-WG-1"
       - "🇨🇭 Switzerland-WG-2"
       - "🇨🇾 Cyprus-WG"
@@ -1892,9 +1892,9 @@ proxy-groups:
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
       - "🇨🇦 Canada-WG-1"
-      - "🇨🇦 Canada-WG-1"
       - "🇨🇦 Canada-WG-2"
-      - "🇨🇦 Canada-WG-2"
+      - "🇨🇦 Canada-WG-3"
+      - "🇨🇦 Canada-WG-4"
       - "🇨🇭 Switzerland-WG-1"
       - "🇨🇭 Switzerland-WG-2"
       - "🇨🇾 Cyprus-WG"
