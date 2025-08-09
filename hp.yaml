@@ -173,7 +173,7 @@ proxies:
   - name: "🇦🇺 Australia - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.1.213.212"
     port: 65142
@@ -199,7 +199,7 @@ proxies:
   - name: "🇦🇺 Australia - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.77.234.212"
     port: 65142
@@ -225,7 +225,7 @@ proxies:
   - name: "🇧🇦 Bosnia and Herzegovina - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.99.3.25"
     port: 65142
@@ -251,7 +251,7 @@ proxies:
   - name: "🇦🇺 Australia - IPv4-3"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.77.232.76"
     port: 65142
@@ -277,7 +277,7 @@ proxies:
   - name: "🇦🇷 Argentina - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "190.103.176.148"
     port: 65142
@@ -303,7 +303,7 @@ proxies:
   - name: "🇦🇺 Australia - IPv4-4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.108.95.228"
     port: 65142
@@ -329,7 +329,7 @@ proxies:
   - name: "🇦🇺 Australia - IPv4-5"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "116.206.228.180"
     port: 65142
@@ -355,7 +355,7 @@ proxies:
   - name: "🇦🇹 Austria (Vienna) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "89.187.168.67"
     port: 65142
@@ -381,7 +381,7 @@ proxies:
   - name: "🇦🇺 Australia (South Australia) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "116.90.72.244"
     port: 65142
@@ -407,7 +407,7 @@ proxies:
   - name: "🇦🇺 Australia - IPv4-6"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.62.50.132"
     port: 65142
@@ -433,7 +433,7 @@ proxies:
   - name: "🇨🇦 Canada - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "23.191.80.4"
     port: 65142
@@ -459,7 +459,7 @@ proxies:
   - name: "🇨🇦 Canada (Toronto) - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "198.8.92.100"
     port: 65142
@@ -485,7 +485,7 @@ proxies:
   - name: "🇨🇦 Canada (Toronto) - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "149.57.28.226"
     port: 65142
@@ -511,7 +511,7 @@ proxies:
   - name: "🇨🇦 Canada - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "104.244.210.244"
     port: 65142
@@ -537,7 +537,7 @@ proxies:
   - name: "🇨🇭 Switzerland (Zurich) - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "89.187.165.99"
     port: 65142
@@ -563,7 +563,7 @@ proxies:
   - name: "🇨🇭 Switzerland (Zurich) - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.156.175.180"
     port: 65142
@@ -589,7 +589,7 @@ proxies:
   - name: "🇨🇾 Cyprus (Pafos) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "46.199.75.107"
     port: 65142
@@ -615,7 +615,7 @@ proxies:
   - name: "🇨🇿 Czechia (Prague) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.246.210.3"
     port: 65142
@@ -641,7 +641,7 @@ proxies:
   - name: "🇫🇷 France (Paris) - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "45.89.174.36"
     port: 65142
@@ -667,7 +667,7 @@ proxies:
   - name: "🇫🇷 France - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "84.17.42.35"
     port: 65142
@@ -693,7 +693,7 @@ proxies:
   - name: "🇬🇧 United Kingdom - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "193.36.118.228"
     port: 65142
@@ -719,7 +719,7 @@ proxies:
   - name: "🇭🇰 Hong Kong - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "84.17.57.115"
     port: 65142
@@ -745,7 +745,7 @@ proxies:
   - name: "🇮🇪 Ireland - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "23.92.127.36"
     port: 65142
@@ -771,7 +771,7 @@ proxies:
   - name: "🇮🇸 Iceland (Reykjavik) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.165.170.3"
     port: 65142
@@ -797,7 +797,7 @@ proxies:
   - name: "🇮🇹 Italy (Milan) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "84.17.59.67"
     port: 65142
@@ -823,7 +823,7 @@ proxies:
   - name: "🇯🇵 Japan - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "138.199.22.163"
     port: 65142
@@ -849,7 +849,7 @@ proxies:
   - name: "🇰🇪 Kenya - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "45.138.86.228"
     port: 65142
@@ -875,7 +875,7 @@ proxies:
   - name: "🇱🇹 Lithuania (Kaunas) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "37.156.216.148"
     port: 65142
@@ -901,7 +901,7 @@ proxies:
   - name: "🇱🇺 Luxembourg - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.221.132.228"
     port: 65142
@@ -927,7 +927,7 @@ proxies:
   - name: "🇲🇰 North Macedonia (Skopje) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.225.28.52"
     port: 65142
@@ -953,7 +953,7 @@ proxies:
   - name: "🇳🇱 Netherlands - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "84.17.46.3"
     port: 65142
@@ -979,7 +979,7 @@ proxies:
   - name: "🇳🇱 Netherlands - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "89.238.150.230"
     port: 65142
@@ -1005,7 +1005,7 @@ proxies:
   - name: "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "185.253.96.4"
     port: 65142
@@ -1031,7 +1031,7 @@ proxies:
   - name: "🇳🇴 Norway (Oslo) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "37.120.203.68"
     port: 65142
@@ -1057,7 +1057,7 @@ proxies:
   - name: "🇳🇿 New Zealand - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "103.108.94.164"
     port: 80
@@ -1083,7 +1083,7 @@ proxies:
   - name: "🇵🇦 Panama - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "138.186.142.204"
     port: 65142
@@ -1109,7 +1109,7 @@ proxies:
   - name: "🇵🇱 Poland (Warsaw) - IPv4"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "84.17.55.99"
     port: 65142
@@ -1135,7 +1135,7 @@ proxies:
   - name: "🇷🇺 Russia - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "95.143.177.67"
     port: 65142
@@ -1161,7 +1161,7 @@ proxies:
   - name: "🇷🇺 Russia - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "188.124.42.116"
     port: 65142
@@ -1187,7 +1187,7 @@ proxies:
   - name: "🇷🇺 Russia - IPv4-3"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "94.242.50.185"
     port: 65142
@@ -1213,7 +1213,7 @@ proxies:
   - name: "🇸🇪 Sweden (Stockholm) - IPv4-1"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "195.181.166.130"
     port: 65142
@@ -1239,7 +1239,7 @@ proxies:
   - name: "🇸🇪 Sweden (Stockholm) - IPv4-2"
     type: wireguard
     ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128""/128"
+    ipv6: "2001:db8:1::1/128"
     private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
     server: "79.142.76.199"
     port: 65142
