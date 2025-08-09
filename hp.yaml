@@ -98,30 +98,6 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 hamedp71-WG"
-    type: wireguard
-    ip: "172.16.0.2/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "gEvJgRYd6tzU6yYfAs24Re/8+WWvTsqGMKl+EBCUjFE="
-    server: 8.34.146.113
-    port: 968
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 hamedp71-WG"
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
   - name: "🇮🇷 hamedp71-IPv6"
     type: wireguard
     ip: "172.16.0.2/32"
@@ -135,30 +111,6 @@ proxies:
     udp: true
     mtu: 1280
     dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇸🇪 hamedp71-IPv6"
-    type: wireguard
-    ip: "172.16.0.2/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.98.216
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 hamedp71 - IPv6"
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1735,11 +1687,8 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 بهترین (با سرعت)"
-      - "🔁 سیستم فیلبک"
       - "🇮🇷 hamedp71-WG"
-      - "🇩🇪 hamedp71-WG"
-      - "🇮🇷 hamedp71-IPv6"
-      - "🇸🇪 hamedp71-IPv6"      
+      - "🇮🇷 hamedp71-IPv6"    
       - "🇦🇺 Australia-WG-1"
       - "🇦🇺 Australia-WG-2"
       - "🇧🇦 Bosnia-WG"
@@ -1808,79 +1757,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "🇮🇷 hamedp71-WG"
-      - "🇩🇪 hamedp71-WG"
-      - "🇮🇷 hamedp71-IPv6"
-      - "🇸🇪 hamedp71-IPv6"      
-      - "🇦🇺 Australia-WG-1"
-      - "🇦🇺 Australia-WG-2"
-      - "🇧🇦 Bosnia-WG"
-      - "🇦🇺 Australia-WG-3"
-      - "🇦🇷 Argentina-WG"
-      - "🇦🇺 Australia-WG-4"
-      - "🇦🇺 Australia-WG-5"
-      - "🇦🇹 Austria-WG"
-      - "🇦🇺 Australia-WG"
-      - "🇦🇺 Australia-WG-6"
-      - "🇨🇦 Canada-WG-1"
-      - "🇨🇦 Canada-WG-2"
-      - "🇨🇦 Canada-WG-3"
-      - "🇨🇦 Canada-WG-4"
-      - "🇨🇭 Switzerland-WG-1"
-      - "🇨🇭 Switzerland-WG-2"
-      - "🇨🇾 Cyprus-WG"
-      - "🇨🇿 Czechia-WG"
-      - "🇫🇷 France-WG-1"
-      - "🇫🇷 France-WG-2"
-      - "🇬🇧 United Kingdom-WG"
-      - "🇭🇰 Hong Kong-WG"
-      - "🇮🇪 Ireland-WG"
-      - "🇮🇸 Iceland-WG"
-      - "🇮🇹 Italy-WG"
-      - "🇯🇵 Japan-WG"
-      - "🇰🇪 Kenya-WG"
-      - "🇱🇹 Lithuania-WG"
-      - "🇱🇺 Luxembourg-WG"
-      - "🇲🇰 North Macedonia-WG"
-      - "🇳🇱 Netherlands-WG-1"
-      - "🇳🇱 Netherlands-WG-2"
-      - "🇳🇱 Netherlands-WG-3"
-      - "🇳🇴 Norway-WG"
-      - "🇳🇿 New Zealand-WG"
-      - "🇵🇦 Panama-WG"
-      - "🇵🇱 Poland-WG"
-      - "🇷🇺 Russia-WG-1"
-      - "🇷🇺 Russia-WG-2"
-      - "🇷🇺 Russia-WG-3"
-      - "🇸🇪 Sweden-WG-1"
-      - "🇸🇪 Sweden-WG-2"
-      - "🇺🇦 Ukraine"
-      - "🇹🇼 Taiwan"
-      - "🇸🇬 Singapore"
-      - "🇸🇬 Singapore 1"
-      - "🇺🇸 United States 2"
-      - "🇺🇸 United States 3"
-      - "🇺🇸 United States 4"
-      - "🇺🇸 United States 5"
-      - "🇺🇸 United States 6"
-      - "🇺🇸 United States 7"
-      - "🇺🇸 United States 8"
-      - "🇺🇸 United States 9"
-      - "🇺🇸 United States 10"
-      - "🇺🇸 United States 11"
-      - "🇺🇸 United States"
-      - "🇻🇳 Vietnam"
-      - "🇿🇦 South Africa 1"
-      - "🇿🇦 South Africa"
-
-  - name: "🔁 سیستم فیلبک"
-    type: fallback
-    url: "http://www.google.com/generate_204"
-    interval: 300
-    proxies:
-      - "🇮🇷 hamedp71-WG"
-      - "🇩🇪 hamedp71-WG"
-      - "🇮🇷 hamedp71-IPv6"
-      - "🇸🇪 hamedp71-IPv6"      
+      - "🇮🇷 hamedp71-IPv6"   
       - "🇦🇺 Australia-WG-1"
       - "🇦🇺 Australia-WG-2"
       - "🇧🇦 Bosnia-WG"
