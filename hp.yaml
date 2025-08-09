@@ -74,6 +74,84 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
+  - name: "🇦🇷 Argentina-WG"
+    type: wireguard
+    ip: "100.80.234.177/32"
+    ipv6: "2001:db8:1::1/128"
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: "190.103.176.148"
+    port: 65142
+    public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+  - name: "🇦🇹 Austria-WG"
+    type: wireguard
+    ip: "100.80.234.177/32"
+    ipv6: "2001:db8:1::1/128"
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: "89.187.168.67"
+    port: 65142
+    public-key: "KtJIKy9zsCXtKwFMQeGDEZVXtqw+X1+5z10Rh84/N0s="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+ 
+  - name: "🇦🇹 Austria-WG-1"
+    type: wireguard
+    ip: "100.80.234.177/32"
+    ipv6: ""
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: "89.187.168.67"
+    port: 443
+    public-key: "KtJIKy9zsCXtKwFMQeGDEZVXtqw+X1+5z10Rh84/N0s="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    dns: ["10.255.255.2"]
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
   - name: "🇦🇺 Australia-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -126,32 +204,6 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇧🇦 Bosnia-WG"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.99.3.25"
-    port: 65142
-    public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇦🇺 Australia-WG-3"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -178,31 +230,6 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇷 Argentina-WG"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "190.103.176.148"
-    port: 65142
-    public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
 
   - name: "🇦🇺 Australia-WG-4"
     type: wireguard
@@ -256,32 +283,6 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇹 Austria-WG"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "89.187.168.67"
-    port: 65142
-    public-key: "KtJIKy9zsCXtKwFMQeGDEZVXtqw+X1+5z10Rh84/N0s="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇦🇺 Australia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -316,6 +317,32 @@ proxies:
     server: "103.62.50.132"
     port: 65142
     public-key: "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+  - name: "🇧🇦 Bosnia-WG"
+    type: wireguard
+    ip: "100.80.234.177/32"
+    ipv6: "2001:db8:1::1/128"
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: "185.99.3.25"
+    port: 65142
+    public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
     reserved: "AAAA"
@@ -1665,16 +1692,17 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 بهترین (با سرعت)"  
+      - "🇦🇷 Argentina-WG"
+      - "🇦🇹 Austria-WG"
+      - "🇦🇹 Austria-WG-1"
       - "🇦🇺 Australia-WG-1"
       - "🇦🇺 Australia-WG-2"
-      - "🇧🇦 Bosnia-WG"
       - "🇦🇺 Australia-WG-3"
-      - "🇦🇷 Argentina-WG"
       - "🇦🇺 Australia-WG-4"
       - "🇦🇺 Australia-WG-5"
-      - "🇦🇹 Austria-WG"
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
+      - "🇧🇦 Bosnia-WG"
       - "🇨🇦 Canada-WG-1"
       - "🇨🇦 Canada-WG-3"
       - "🇨🇦 Canada-WG-3"
@@ -1733,16 +1761,17 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies: 
+      - "🇦🇷 Argentina-WG"
+      - "🇦🇹 Austria-WG"
+      - "🇦🇹 Austria-WG-1"
       - "🇦🇺 Australia-WG-1"
       - "🇦🇺 Australia-WG-2"
-      - "🇧🇦 Bosnia-WG"
       - "🇦🇺 Australia-WG-3"
-      - "🇦🇷 Argentina-WG"
       - "🇦🇺 Australia-WG-4"
       - "🇦🇺 Australia-WG-5"
-      - "🇦🇹 Austria-WG"
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
+      - "🇧🇦 Bosnia-WG"
       - "🇨🇦 Canada-WG-1"
       - "🇨🇦 Canada-WG-2"
       - "🇨🇦 Canada-WG-3"
