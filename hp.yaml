@@ -74,7 +74,7 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇮🇷 hamedp71 - IPv4"
+  - name: "🇮🇷 hamedp71-WG"
     type: wireguard
     ip: "172.16.0.2/32"
     ipv6: "2001:db8:1::1/128"
@@ -98,7 +98,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 hamedp71 - IPv4"
+  - name: "🇩🇪 hamedp71-WG"
     type: wireguard
     ip: "172.16.0.2/32"
     ipv6: "2001:db8:1::1/128"
@@ -110,7 +110,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 hamedp71 - IPv4"
+    dialer-proxy: "🇮🇷 hamedp71-WG"
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -122,7 +122,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇮🇷 hamedp71 - IPv6"
+  - name: "🇮🇷 hamedp71-IPv6"
     type: wireguard
     ip: "172.16.0.2/32"
     ipv6: "2001:db8:1::1/128"
@@ -146,7 +146,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇸🇪 hamedp71 - IPv6"
+  - name: "🇸🇪 hamedp71-IPv6"
     type: wireguard
     ip: "172.16.0.2/32"
     ipv6: "2001:db8:1::1/128"
@@ -170,7 +170,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇦🇺 Australia - IPv4-1"
+  - name: "🇦🇺 Australia-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -196,7 +196,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇦🇺 Australia - IPv4-2"
+  - name: "🇦🇺 Australia-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -222,7 +222,7 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇧🇦 Bosnia and Herzegovina - IPv4"
+  - name: "🇧🇦 Bosnia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -248,7 +248,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇺 Australia - IPv4-3"
+  - name: "🇦🇺 Australia-WG-3"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -274,7 +274,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇷 Argentina - IPv4"
+  - name: "🇦🇷 Argentina-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -300,7 +300,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇺 Australia - IPv4-4"
+  - name: "🇦🇺 Australia-WG-4"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -326,7 +326,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇺 Australia - IPv4-5"
+  - name: "🇦🇺 Australia-WG-5"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -352,7 +352,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇹 Austria (Vienna) - IPv4"
+  - name: "🇦🇹 Austria-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -378,7 +378,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇺 Australia (South Australia) - IPv4"
+  - name: "🇦🇺 Australia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -404,7 +404,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇦🇺 Australia - IPv4-6"
+  - name: "🇦🇺 Australia-WG-6"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -430,7 +430,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada - IPv4-1"
+  - name: "🇨🇦 Canada-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -456,7 +456,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada (Toronto) - IPv4-1"
+  - name: "🇨🇦 Canada-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -482,7 +482,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada (Toronto) - IPv4-2"
+  - name: "🇨🇦 Canada-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -508,7 +508,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇦 Canada - IPv4-2"
+  - name: "🇨🇦 Canada-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -534,7 +534,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇭 Switzerland (Zurich) - IPv4-1"
+  - name: "🇨🇭 Switzerland-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -560,7 +560,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇭 Switzerland (Zurich) - IPv4-2"
+  - name: "🇨🇭 Switzerland-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -586,7 +586,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇾 Cyprus (Pafos) - IPv4"
+  - name: "🇨🇾 Cyprus-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -612,7 +612,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇨🇿 Czechia (Prague) - IPv4"
+  - name: "🇨🇿 Czechia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -638,7 +638,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇫🇷 France (Paris) - IPv4-1"
+  - name: "🇫🇷 France-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -664,7 +664,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇫🇷 France - IPv4-2"
+  - name: "🇫🇷 France-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -690,7 +690,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇬🇧 United Kingdom - IPv4"
+  - name: "🇬🇧 United Kingdom-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -716,7 +716,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇭🇰 Hong Kong - IPv4"
+  - name: "🇭🇰 Hong Kong-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -742,7 +742,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇮🇪 Ireland - IPv4"
+  - name: "🇮🇪 Ireland-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -768,7 +768,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇮🇸 Iceland (Reykjavik) - IPv4"
+  - name: "🇮🇸 Iceland-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -794,7 +794,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇮🇹 Italy (Milan) - IPv4"
+  - name: "🇮🇹 Italy-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -820,7 +820,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇯🇵 Japan - IPv4"
+  - name: "🇯🇵 Japan-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -846,7 +846,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇰🇪 Kenya - IPv4"
+  - name: "🇰🇪 Kenya-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -872,7 +872,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇱🇹 Lithuania (Kaunas) - IPv4"
+  - name: "🇱🇹 Lithuania-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -898,7 +898,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇱🇺 Luxembourg - IPv4"
+  - name: "🇱🇺 Luxembourg-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -924,7 +924,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇲🇰 North Macedonia (Skopje) - IPv4"
+  - name: "🇲🇰 North Macedonia-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -950,7 +950,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇳🇱 Netherlands - IPv4-1"
+  - name: "🇳🇱 Netherlands-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -976,7 +976,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇳🇱 Netherlands - IPv4-2"
+  - name: "🇳🇱 Netherlands-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1002,7 +1002,7 @@ proxies:
       h3: 3
       h4: 4
       
-  - name: "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
+  - name: "🇳🇱 Netherlands-WG-3"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1028,7 +1028,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇳🇴 Norway (Oslo) - IPv4"
+  - name: "🇳🇴 Norway-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1054,7 +1054,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇳🇿 New Zealand - IPv4"
+  - name: "🇳🇿 New Zealand-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1080,7 +1080,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇵🇦 Panama - IPv4"
+  - name: "🇵🇦 Panama-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1106,7 +1106,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇵🇱 Poland (Warsaw) - IPv4"
+  - name: "🇵🇱 Poland-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1132,7 +1132,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇷🇺 Russia - IPv4-1"
+  - name: "🇷🇺 Russia-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1158,7 +1158,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇷🇺 Russia - IPv4-2"
+  - name: "🇷🇺 Russia-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1184,7 +1184,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇷🇺 Russia - IPv4-3"
+  - name: "🇷🇺 Russia-WG-3"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1210,7 +1210,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇸🇪 Sweden (Stockholm) - IPv4-1"
+  - name: "🇸🇪 Sweden-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1236,7 +1236,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇸🇪 Sweden (Stockholm) - IPv4-2"
+  - name: "🇸🇪 Sweden-WG-2"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1736,52 +1736,52 @@ proxy-groups:
     proxies:
       - "🚀 بهترین (با سرعت)"
       - "🔁 سیستم فیلبک"
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
-      - "🇦🇺 Australia - IPv4-1"
-      - "🇦🇺 Australia - IPv4-2"
-      - "🇧🇦 Bosnia and Herzegovina - IPv4"
-      - "🇦🇺 Australia - IPv4-3"
-      - "🇦🇷 Argentina - IPv4"
-      - "🇦🇺 Australia - IPv4-4"
-      - "🇦🇺 Australia - IPv4-5"
-      - "🇦🇹 Austria (Vienna) - IPv4"
-      - "🇦🇺 Australia (South Australia) - IPv4"
-      - "🇦🇺 Australia - IPv4-6"
-      - "🇨🇦 Canada - IPv4-1"
-      - "🇨🇦 Canada (Toronto) - IPv4-1"
-      - "🇨🇦 Canada (Toronto) - IPv4-2"
-      - "🇨🇦 Canada - IPv4-2"
-      - "🇨🇭 Switzerland (Zurich) - IPv4-1"
-      - "🇨🇭 Switzerland (Zurich) - IPv4-2"
-      - "🇨🇾 Cyprus (Pafos) - IPv4"
-      - "🇨🇿 Czechia (Prague) - IPv4"
-      - "🇫🇷 France (Paris) - IPv4-1"
-      - "🇫🇷 France - IPv4-2"
-      - "🇬🇧 United Kingdom - IPv4"
-      - "🇭🇰 Hong Kong - IPv4"
-      - "🇮🇪 Ireland - IPv4"
-      - "🇮🇸 Iceland (Reykjavik) - IPv4"
-      - "🇮🇹 Italy (Milan) - IPv4"
-      - "🇯🇵 Japan - IPv4"
-      - "🇰🇪 Kenya - IPv4"
-      - "🇱🇹 Lithuania (Kaunas) - IPv4"
-      - "🇱🇺 Luxembourg - IPv4"
-      - "🇲🇰 North Macedonia (Skopje) - IPv4"
-      - "🇳🇱 Netherlands - IPv4-1"
-      - "🇳🇱 Netherlands - IPv4-2"
-      - "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
-      - "🇳🇴 Norway (Oslo) - IPv4"
-      - "🇳🇿 New Zealand - IPv4"
-      - "🇵🇦 Panama - IPv4"
-      - "🇵🇱 Poland (Warsaw) - IPv4"
-      - "🇷🇺 Russia - IPv4-1"
-      - "🇷🇺 Russia - IPv4-2"
-      - "🇷🇺 Russia - IPv4-3"
-      - "🇸🇪 Sweden (Stockholm) - IPv4-1"
-      - "🇸🇪 Sweden (Stockholm) - IPv4-2"
+      - "🇮🇷 hamedp71-WG"
+      - "🇩🇪 hamedp71-WG"
+      - "🇮🇷 hamedp71-IPv6"
+      - "🇸🇪 hamedp71-IPv6"      
+      - "🇦🇺 Australia-WG-1"
+      - "🇦🇺 Australia-WG-2"
+      - "🇧🇦 Bosnia-WG"
+      - "🇦🇺 Australia-WG-3"
+      - "🇦🇷 Argentina-WG"
+      - "🇦🇺 Australia-WG-4"
+      - "🇦🇺 Australia-WG-5"
+      - "🇦🇹 Austria-WG"
+      - "🇦🇺 Australia-WG"
+      - "🇦🇺 Australia-WG-6"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-2"
+      - "🇨🇦 Canada-WG-2"
+      - "🇨🇭 Switzerland-WG-1"
+      - "🇨🇭 Switzerland-WG-2"
+      - "🇨🇾 Cyprus-WG"
+      - "🇨🇿 Czechia-WG"
+      - "🇫🇷 France-WG-1"
+      - "🇫🇷 France-WG-2"
+      - "🇬🇧 United Kingdom-WG"
+      - "🇭🇰 Hong Kong-WG"
+      - "🇮🇪 Ireland-WG"
+      - "🇮🇸 Iceland-WG"
+      - "🇮🇹 Italy-WG"
+      - "🇯🇵 Japan-WG"
+      - "🇰🇪 Kenya-WG"
+      - "🇱🇹 Lithuania-WG"
+      - "🇱🇺 Luxembourg-WG"
+      - "🇲🇰 North Macedonia-WG"
+      - "🇳🇱 Netherlands-WG-1"
+      - "🇳🇱 Netherlands-WG-2"
+      - "🇳🇱 Netherlands-WG-3"
+      - "🇳🇴 Norway-WG"
+      - "🇳🇿 New Zealand-WG"
+      - "🇵🇦 Panama-WG"
+      - "🇵🇱 Poland-WG"
+      - "🇷🇺 Russia-WG-1"
+      - "🇷🇺 Russia-WG-2"
+      - "🇷🇺 Russia-WG-3"
+      - "🇸🇪 Sweden-WG-1"
+      - "🇸🇪 Sweden-WG-2"
       - "🇺🇦 Ukraine"
       - "🇹🇼 Taiwan"
       - "🇸🇬 Singapore"
@@ -1807,52 +1807,52 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
-      - "🇦🇺 Australia - IPv4-1"
-      - "🇦🇺 Australia - IPv4-2"
-      - "🇧🇦 Bosnia and Herzegovina - IPv4"
-      - "🇦🇺 Australia - IPv4-3"
-      - "🇦🇷 Argentina - IPv4"
-      - "🇦🇺 Australia - IPv4-4"
-      - "🇦🇺 Australia - IPv4-5"
-      - "🇦🇹 Austria (Vienna) - IPv4"
-      - "🇦🇺 Australia (South Australia) - IPv4"
-      - "🇦🇺 Australia - IPv4-6"
-      - "🇨🇦 Canada - IPv4-1"
-      - "🇨🇦 Canada (Toronto) - IPv4-1"
-      - "🇨🇦 Canada (Toronto) - IPv4-2"
-      - "🇨🇦 Canada - IPv4-2"
-      - "🇨🇭 Switzerland (Zurich) - IPv4-1"
-      - "🇨🇭 Switzerland (Zurich) - IPv4-2"
-      - "🇨🇾 Cyprus (Pafos) - IPv4"
-      - "🇨🇿 Czechia (Prague) - IPv4"
-      - "🇫🇷 France (Paris) - IPv4-1"
-      - "🇫🇷 France - IPv4-2"
-      - "🇬🇧 United Kingdom - IPv4"
-      - "🇭🇰 Hong Kong - IPv4"
-      - "🇮🇪 Ireland - IPv4"
-      - "🇮🇸 Iceland (Reykjavik) - IPv4"
-      - "🇮🇹 Italy (Milan) - IPv4"
-      - "🇯🇵 Japan - IPv4"
-      - "🇰🇪 Kenya - IPv4"
-      - "🇱🇹 Lithuania (Kaunas) - IPv4"
-      - "🇱🇺 Luxembourg - IPv4"
-      - "🇲🇰 North Macedonia (Skopje) - IPv4"
-      - "🇳🇱 Netherlands - IPv4-1"
-      - "🇳🇱 Netherlands - IPv4-2"
-      - "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
-      - "🇳🇴 Norway (Oslo) - IPv4"
-      - "🇳🇿 New Zealand - IPv4"
-      - "🇵🇦 Panama - IPv4"
-      - "🇵🇱 Poland (Warsaw) - IPv4"
-      - "🇷🇺 Russia - IPv4-1"
-      - "🇷🇺 Russia - IPv4-2"
-      - "🇷🇺 Russia - IPv4-3"
-      - "🇸🇪 Sweden (Stockholm) - IPv4-1"
-      - "🇸🇪 Sweden (Stockholm) - IPv4-2"
+      - "🇮🇷 hamedp71-WG"
+      - "🇩🇪 hamedp71-WG"
+      - "🇮🇷 hamedp71-IPv6"
+      - "🇸🇪 hamedp71-IPv6"      
+      - "🇦🇺 Australia-WG-1"
+      - "🇦🇺 Australia-WG-2"
+      - "🇧🇦 Bosnia-WG"
+      - "🇦🇺 Australia-WG-3"
+      - "🇦🇷 Argentina-WG"
+      - "🇦🇺 Australia-WG-4"
+      - "🇦🇺 Australia-WG-5"
+      - "🇦🇹 Austria-WG"
+      - "🇦🇺 Australia-WG"
+      - "🇦🇺 Australia-WG-6"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-2"
+      - "🇨🇦 Canada-WG-2"
+      - "🇨🇭 Switzerland-WG-1"
+      - "🇨🇭 Switzerland-WG-2"
+      - "🇨🇾 Cyprus-WG"
+      - "🇨🇿 Czechia-WG"
+      - "🇫🇷 France-WG-1"
+      - "🇫🇷 France-WG-2"
+      - "🇬🇧 United Kingdom-WG"
+      - "🇭🇰 Hong Kong-WG"
+      - "🇮🇪 Ireland-WG"
+      - "🇮🇸 Iceland-WG"
+      - "🇮🇹 Italy-WG"
+      - "🇯🇵 Japan-WG"
+      - "🇰🇪 Kenya-WG"
+      - "🇱🇹 Lithuania-WG"
+      - "🇱🇺 Luxembourg-WG"
+      - "🇲🇰 North Macedonia-WG"
+      - "🇳🇱 Netherlands-WG-1"
+      - "🇳🇱 Netherlands-WG-2"
+      - "🇳🇱 Netherlands-WG-3"
+      - "🇳🇴 Norway-WG"
+      - "🇳🇿 New Zealand-WG"
+      - "🇵🇦 Panama-WG"
+      - "🇵🇱 Poland-WG"
+      - "🇷🇺 Russia-WG-1"
+      - "🇷🇺 Russia-WG-2"
+      - "🇷🇺 Russia-WG-3"
+      - "🇸🇪 Sweden-WG-1"
+      - "🇸🇪 Sweden-WG-2"
       - "🇺🇦 Ukraine"
       - "🇹🇼 Taiwan"
       - "🇸🇬 Singapore"
@@ -1877,52 +1877,52 @@ proxy-groups:
     url: "http://www.google.com/generate_204"
     interval: 300
     proxies:
-      - "🇮🇷 hamedp71 - IPv4"
-      - "🇩🇪 hamedp71 - IPv4"
-      - "🇮🇷 hamedp71 - IPv6"
-      - "🇸🇪 hamedp71 - IPv6"      
-      - "🇦🇺 Australia - IPv4-1"
-      - "🇦🇺 Australia - IPv4-2"
-      - "🇧🇦 Bosnia and Herzegovina - IPv4"
-      - "🇦🇺 Australia - IPv4-3"
-      - "🇦🇷 Argentina - IPv4"
-      - "🇦🇺 Australia - IPv4-4"
-      - "🇦🇺 Australia - IPv4-5"
-      - "🇦🇹 Austria (Vienna) - IPv4"
-      - "🇦🇺 Australia (South Australia) - IPv4"
-      - "🇦🇺 Australia - IPv4-6"
-      - "🇨🇦 Canada - IPv4-1"
-      - "🇨🇦 Canada (Toronto) - IPv4-1"
-      - "🇨🇦 Canada (Toronto) - IPv4-2"
-      - "🇨🇦 Canada - IPv4-2"
-      - "🇨🇭 Switzerland (Zurich) - IPv4-1"
-      - "🇨🇭 Switzerland (Zurich) - IPv4-2"
-      - "🇨🇾 Cyprus (Pafos) - IPv4"
-      - "🇨🇿 Czechia (Prague) - IPv4"
-      - "🇫🇷 France (Paris) - IPv4-1"
-      - "🇫🇷 France - IPv4-2"
-      - "🇬🇧 United Kingdom - IPv4"
-      - "🇭🇰 Hong Kong - IPv4"
-      - "🇮🇪 Ireland - IPv4"
-      - "🇮🇸 Iceland (Reykjavik) - IPv4"
-      - "🇮🇹 Italy (Milan) - IPv4"
-      - "🇯🇵 Japan - IPv4"
-      - "🇰🇪 Kenya - IPv4"
-      - "🇱🇹 Lithuania (Kaunas) - IPv4"
-      - "🇱🇺 Luxembourg - IPv4"
-      - "🇲🇰 North Macedonia (Skopje) - IPv4"
-      - "🇳🇱 Netherlands - IPv4-1"
-      - "🇳🇱 Netherlands - IPv4-2"
-      - "🇳🇱 Netherlands (Amsterdam) - IPv4-3"
-      - "🇳🇴 Norway (Oslo) - IPv4"
-      - "🇳🇿 New Zealand - IPv4"
-      - "🇵🇦 Panama - IPv4"
-      - "🇵🇱 Poland (Warsaw) - IPv4"
-      - "🇷🇺 Russia - IPv4-1"
-      - "🇷🇺 Russia - IPv4-2"
-      - "🇷🇺 Russia - IPv4-3"
-      - "🇸🇪 Sweden (Stockholm) - IPv4-1"
-      - "🇸🇪 Sweden (Stockholm) - IPv4-2"
+      - "🇮🇷 hamedp71-WG"
+      - "🇩🇪 hamedp71-WG"
+      - "🇮🇷 hamedp71-IPv6"
+      - "🇸🇪 hamedp71-IPv6"      
+      - "🇦🇺 Australia-WG-1"
+      - "🇦🇺 Australia-WG-2"
+      - "🇧🇦 Bosnia-WG"
+      - "🇦🇺 Australia-WG-3"
+      - "🇦🇷 Argentina-WG"
+      - "🇦🇺 Australia-WG-4"
+      - "🇦🇺 Australia-WG-5"
+      - "🇦🇹 Austria-WG"
+      - "🇦🇺 Australia-WG"
+      - "🇦🇺 Australia-WG-6"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-2"
+      - "🇨🇦 Canada-WG-2"
+      - "🇨🇭 Switzerland-WG-1"
+      - "🇨🇭 Switzerland-WG-2"
+      - "🇨🇾 Cyprus-WG"
+      - "🇨🇿 Czechia-WG"
+      - "🇫🇷 France-WG-1"
+      - "🇫🇷 France-WG-2"
+      - "🇬🇧 United Kingdom-WG"
+      - "🇭🇰 Hong Kong-WG"
+      - "🇮🇪 Ireland-WG"
+      - "🇮🇸 Iceland-WG"
+      - "🇮🇹 Italy-WG"
+      - "🇯🇵 Japan-WG"
+      - "🇰🇪 Kenya-WG"
+      - "🇱🇹 Lithuania-WG"
+      - "🇱🇺 Luxembourg-WG"
+      - "🇲🇰 North Macedonia-WG"
+      - "🇳🇱 Netherlands-WG-1"
+      - "🇳🇱 Netherlands-WG-2"
+      - "🇳🇱 Netherlands-WG-3"
+      - "🇳🇴 Norway-WG"
+      - "🇳🇿 New Zealand-WG"
+      - "🇵🇦 Panama-WG"
+      - "🇵🇱 Poland-WG"
+      - "🇷🇺 Russia-WG-1"
+      - "🇷🇺 Russia-WG-2"
+      - "🇷🇺 Russia-WG-3"
+      - "🇸🇪 Sweden-WG-1"
+      - "🇸🇪 Sweden-WG-2"
       - "🇺🇦 Ukraine"
       - "🇹🇼 Taiwan"
       - "🇸🇬 Singapore"
