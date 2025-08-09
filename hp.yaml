@@ -361,6 +361,32 @@ proxies:
       h3: 3
       h4: 4
 
+  - name: "🇨🇦 Canada-WG"
+    type: wireguard
+    ip: "100.80.234.177/32"
+    ipv6: ""
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: "149.57.28.226"
+    port: 443
+    public-key: "vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    dns: ["10.255.255.2"]
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
   - name: "🇨🇦 Canada-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -1729,6 +1755,7 @@ proxy-groups:
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
       - "🇧🇦 Bosnia-WG"
+      - "🇨🇦 Canada-WG"
       - "🇨🇦 Canada-WG-1"
       - "🇨🇦 Canada-WG-3"
       - "🇨🇦 Canada-WG-3"
@@ -1799,6 +1826,7 @@ proxy-groups:
       - "🇦🇺 Australia-WG"
       - "🇦🇺 Australia-WG-6"
       - "🇧🇦 Bosnia-WG"
+      - "🇨🇦 Canada-WG"
       - "🇨🇦 Canada-WG-1"
       - "🇨🇦 Canada-WG-2"
       - "🇨🇦 Canada-WG-3"
