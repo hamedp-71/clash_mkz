@@ -75,32 +75,6 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇦🇷 Argentina-WG"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "190.103.176.148"
-    port: 65142
-    public-key: "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇦🇹 Austria-WG"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -1874,9 +1848,8 @@ proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
-      - "🔁 سیستم فیلبک"
       - "🚀 بهترین (با سرعت)"
-      - "🇦🇷 Argentina-WG"
+      - "🔁 سیستم فیلبک"
       - "🇦🇹 Austria-WG"
       - "🇦🇹 Austria-WG-1"
       - "🇦🇺 Australia-WG-1"
@@ -1952,7 +1925,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "🇦🇷 Argentina-WG"
       - "🇦🇹 Austria-WG"
       - "🇦🇹 Austria-WG-1"
       - "🇦🇺 Australia-WG-1"
@@ -2027,7 +1999,6 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
-      - "🇦🇷 Argentina-WG"
       - "🇦🇹 Austria-WG"
       - "🇦🇹 Austria-WG-1"
       - "🇦🇺 Australia-WG-1"
@@ -2148,7 +2119,7 @@ rules:
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,🌐 گلوبال
+  - MATCH,🌐 گلوبال,🔁 سیستم فیلبک
 
 ntp:
   enable: true
