@@ -725,7 +725,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇮🇸 Ireland-WG"
+  - name: "🇮🇸 Iceland-WG"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: ""
@@ -751,7 +751,7 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇮🇸 Ireland-WG-1"
+  - name: "🇮🇸 Iceland-WG-1"
     type: wireguard
     ip: "100.80.234.177/32"
     ipv6: "2001:db8:1::1/128"
@@ -1873,7 +1873,7 @@ proxy-groups:
       - "🇫🇷 France-WG-2"
       - "🇬🇧 United Kingdom-WG"
       - "🇭🇰 Hong Kong-WG"
-      - "🇮🇸 Ireland-WG"
+      - "🇮🇸 Iceland-WG"
       - "🇮🇸 Iceland-WG-1"
       - "🇮🇸 Iceland-WG-2"
       - "🇮🇹 Italy-WG"
@@ -1948,7 +1948,7 @@ proxy-groups:
       - "🇫🇷 France-WG-2"
       - "🇬🇧 United Kingdom-WG"
       - "🇭🇰 Hong Kong-WG"
-      - "🇮🇸 Ireland-WG"
+      - "🇮🇸 Iceland-WG"
       - "🇮🇸 Iceland-WG-1"
       - "🇮🇸 Iceland-WG-2"
       - "🇮🇹 Italy-WG"
