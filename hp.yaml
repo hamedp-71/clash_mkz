@@ -86,7 +86,7 @@ proxies:
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: ""
+    dialer-proxy: "🇷🇺 Russia-WG"
     amnezia-wg-option:
       jc: 4
       jmin: 40
